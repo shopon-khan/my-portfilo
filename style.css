@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -11,11 +12,23 @@ h1{
 }
 .half-width{
     width: 40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
+    float: left;
+    
 }
 
 .half-width img{
     width: 100%;
+}
+
+.top-banner{
+   
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+
+    height: 800px;
 }
